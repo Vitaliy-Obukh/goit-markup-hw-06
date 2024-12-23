@@ -21,6 +21,7 @@
   </head>
 
   <body>
+    <!-- =========Header========= -->
     <header class="display">
       <div class="container container-header">
         <nav class="nav-box">
@@ -51,10 +52,23 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="open-mobile-menu">
+          <svg class="icon-open-menu-header" width="24" height="24">
+            <use href="./images/icons.svg#icon-heder-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <button id="close-mobil-menu" class="close-mobile-menu" type="button">
+          <svg class="close-menu-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
     <main>
+      <!-- =========Cection button========= -->
       <section class="section-button">
         <div class="container">
           <h1 class="title-main">Effective Solutions for Your Business</h1>
@@ -64,6 +78,7 @@
         </div>
       </section>
 
+      <!-- =========Section description========= -->
       <section class="section-description">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
@@ -120,6 +135,7 @@
         </div>
       </section>
 
+      <!-- =========Section photo========= -->
       <section class="section-foto">
         <div class="container container-foto">
           <h2 class="title-section-foto">Our Team</h2>
@@ -127,10 +143,10 @@
             <li class="list-fone">
               <img
                 srcset="
-                  ./images/mark_guerrero1x.jpg 1x,
-                  ./images/mark_guerrero2x.jpg 2x
+                  ./images/mark_guerrero@1x.jpg 1x,
+                  ./images/mark_guerrero@2x.jpg 2x
                 "
-                src="./images/mark_guerrero1x.jpg"
+                src="./images/mark_guerrero@1x.jpg"
                 alt="Mark Guerrero"
                 class="foto"
                 width="264"
@@ -174,8 +190,11 @@
             </li>
             <li class="list-fone">
               <img
-                srcset="./images/tom_ford1x.jpg 1x, ./images/tom_ford2x.jpg 2x"
-                src="./images/tom_ford1x.jpg"
+                srcset="
+                  ./images/tom_ford@1x.jpg 1x,
+                  ./images/tom_ford@2x.jpg 2x
+                "
+                src="./images/tom_ford@1x.jpg"
                 alt="Tom Ford"
                 class="foto"
                 width="264"
@@ -219,10 +238,10 @@
             <li class="list-fone">
               <img
                 srcset="
-                  ./images/camila_garcia1x.jpg 1x,
-                  ./images/camila_garcia2x.jpg 2x
+                  ./images/camila_garcia@1x.jpg 1x,
+                  ./images/camila_garcia@2x.jpg 2x
                 "
-                src="./images/camila_garcia1x.jpg"
+                src="./images/camila_garcia@1x.jpg"
                 alt="Camila Garcia"
                 class="foto"
                 width="264"
@@ -266,10 +285,10 @@
             <li class="list-fone">
               <img
                 srcset="
-                  ./images/daniel_wilson1x.jpg 1x,
-                  ./images/daniel_wilson2x.jpg 2x
+                  ./images/daniel_wilson@1x.jpg 1x,
+                  ./images/daniel_wilson@2x.jpg 2x
                 "
-                src="./images/daniel_wilson1x.jpg"
+                src="./images/daniel_wilson@1x.jpg"
                 alt="Daniel Wilson"
                 class="foto"
                 width="264"
@@ -314,6 +333,7 @@
         </div>
       </section>
 
+      <!--=========Section portfolio=========-->
       <section class="section-portfolio">
         <div class="container">
           <h2 class="title-portfolio">Our Portfolio</h2>
@@ -322,10 +342,10 @@
               <div class="box-overlay">
                 <img
                   srcset="
-                    ./images/banking_app1x.jpg 1x,
-                    ./images/banking_app2x.jpg 2x
+                    ./images/banking_app@1x.jpg 1x,
+                    ./images/banking_app@2x.jpg 2x
                   "
-                  src="./images/banking_app1x.jpg"
+                  src="./images/banking_app@1x.jpg"
                   alt="Banking App"
                   width="360"
                   height="300"
@@ -346,10 +366,10 @@
               <div class="box-overlay">
                 <img
                   srcset="
-                    ./images/cashless_payment1x.jpg 1x,
-                    ./images/cashless_payment2x.jpg 2x
+                    ./images/cashless_payment@1x.jpg 1x,
+                    ./images/cashless_payment@2x.jpg 2x
                   "
-                  src="./images/cashless_payment1x.jpg"
+                  src="./images/cashless_payment@1x.jpg"
                   alt="Cashless Payment"
                   width="360"
                   height="300"
@@ -370,10 +390,10 @@
               <div class="box-overlay">
                 <img
                   srcset="
-                    ./images/meditation_app1x.jpg 1x,
-                    ./images/meditation_app2x.jpg 2x
+                    ./images/meditation_app@1x.jpg 1x,
+                    ./images/meditation_app@2x.jpg 2x
                   "
-                  src="./images/meditation_app1x.jpg"
+                  src="./images/meditation_app@1x.jpg"
                   alt="Meditation App"
                   width="360"
                   height="300"
@@ -394,10 +414,10 @@
               <div class="box-overlay">
                 <img
                   srcset="
-                    ./images/taxi_service1x.jpg 1x,
-                    ./images/taxi_service2x.jpg 2x
+                    ./images/taxi_service@1x.jpg 1x,
+                    ./images/taxi_service@2x.jpg 2x
                   "
-                  src="./images/taxi_service1x.jpg"
+                  src="./images/taxi_service@1x.jpg"
                   alt="Taxi Service"
                   width="360"
                   height="300"
@@ -418,10 +438,10 @@
               <div class="box-overlay">
                 <img
                   srcset="
-                    ./images/screen_illustrations1x.jpg 1x,
-                    ./images/screen_illustrations2x.jpg 2x
+                    ./images/screen_illustrations@1x.jpg 1x,
+                    ./images/screen_illustrations@2x.jpg 2x
                   "
-                  src="./images/screen_illustrations1x.jpg"
+                  src="./images/screen_illustrations@1x.jpg"
                   alt="Screen Illustrations"
                   width="360"
                   height="300"
@@ -442,10 +462,10 @@
               <div class="box-overlay">
                 <img
                   srcset="
-                    ./images/online_courses1x.jpg 1x,
-                    ./images/online_courses2x.jpg 2x
+                    ./images/online_courses@1x.jpg 1x,
+                    ./images/online_courses@2x.jpg 2x
                   "
-                  src="./images/online_courses1x.jpg"
+                  src="./images/online_courses@1x.jpg"
                   alt="Online Courses"
                   width="360"
                   height="300"
@@ -467,6 +487,7 @@
       </section>
     </main>
 
+    <!-- =========Footer========= -->
     <footer class="section-footer">
       <div class="container container-footer">
         <div class="box-footer-logo">
@@ -532,6 +553,7 @@
       </div>
     </footer>
 
+    <!--========= Modal overlay =========-->
     <div id="modal-window" class="modal-overlay" data-modal>
       <div class="modal">
         <button
