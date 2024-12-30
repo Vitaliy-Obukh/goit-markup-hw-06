@@ -647,6 +647,7 @@ a.corrent {
 @media screen and (min-width: 768px) {
   .list-foto {
     gap: 24px;
+    row-gap: 64px;
   }
 }
 
@@ -858,6 +859,16 @@ a.corrent {
     padding-top: 96px;
     padding-bottom: 96px;
     padding-left: 92px;
+    padding-right: 92px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .section-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
